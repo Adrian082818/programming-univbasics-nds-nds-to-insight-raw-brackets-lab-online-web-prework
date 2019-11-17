@@ -13,8 +13,9 @@ while row_index < nds.length do
   while column_index < movies.length do 
  directors_gross = movies[column_index][:worldwide_gross]
   total[directors_name] += directors_gross
-end
   column_index += 1
+end 
+row_index += 1
 end 
 return total
 end 
